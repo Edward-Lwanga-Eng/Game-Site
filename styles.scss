@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-color: rgb(212, 212, 212);
+}
+.container{
+   height: 100vh; 
+   overflow-y: hidden;
+   
+    header{
+        background-color: rgb(0, 0, 0);
+        height: 40px;
+        .nav{
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+    }
+  
+   ul li{
+       display: block;
+       list-style-type: none;
+   }
+   .nav-bar{
+       display: flex;
+       justify-content: space-between;
+       padding: 8px;
+       font-family: 'Roboto Slab', serif;
+       .nav-one{
+           display: flex;
+           .active{
+               color: red;
+           }
+           li{
+               margin: 5px;
+               list-style: none;
+               a{color: rgb(250, 249, 249);text-decoration: none;}
+           }
+       }
+       .nav-two li{
+           a{color: rgb(250, 249, 249);text-decoration: none;}
+        margin: 5px;
+       }
+       ul li a:hover{
+            color: rgba(95, 95, 95, 0.938);
+       }
+   }
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1080px;
+    .img-container{
+        height: 380px;
+        margin-top: 25px;
+        text-align: center;
+        color: cornsilk;
+        .img-txt{
+            color: rgb(255, 255, 255);
+            text-align: inherit;
+            padding: 150px 0;
+            h1,h2{
+                text-shadow: 5px 5px 5px rgb(17, 16, 16);
+            }   
+        }
+        background-image: url(../imgs/3038551.jpg);
+        background-size:cover;
+        border-radius: 5px;
+        border:5px solid rgba(250, 15, 172, 0.336);
+        background-repeat: no-repeat;
+    }
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 270px;
+    margin-top:15px;
+    margin-bottom: 5px;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3rem;
+    .card-one,.card-two,.card-three{
+        border-radius: 5px;
+        height: 100%;
+        background-color: rgba(168, 168, 168, 0.877);
+        text-align: center;
+        width: 350px;
+    }
+}
+.fa{
+    color: red;
+    margin-top: 15px;
+}
+.awesome{
+    margin-top: 15px;
+}

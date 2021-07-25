@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #d4d4d4;
+}
+
+.container {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.container header {
+  background-color: black;
+  height: 40px;
+}
+
+.container header .nav {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.container ul li {
+  display: block;
+  list-style-type: none;
+}
+
+.container .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container .nav-bar .nav-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .nav-bar .nav-one .active {
+  color: red;
+}
+
+.container .nav-bar .nav-one li {
+  margin: 5px;
+  list-style: none;
+}
+
+.container .nav-bar .nav-one li a {
+  color: #faf9f9;
+  text-decoration: none;
+}
+
+.container .nav-bar .nav-two li {
+  margin: 5px;
+}
+
+.container .nav-bar .nav-two li a {
+  color: #faf9f9;
+  text-decoration: none;
+}
+
+.container .nav-bar ul li a:hover {
+  color: rgba(95, 95, 95, 0.938);
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+section .img-container {
+  height: 380px;
+  margin-top: 25px;
+  text-align: center;
+  color: cornsilk;
+  background-image: url(../imgs/3038551.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  border: 5px solid rgba(250, 15, 172, 0.336);
+  background-repeat: no-repeat;
+}
+
+section .img-container .img-txt {
+  color: white;
+  text-align: inherit;
+  padding: 150px 0;
+}
+
+section .img-container .img-txt h1, section .img-container .img-txt h2 {
+  text-shadow: 5px 5px 5px #111010;
+}
+
+.cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 270px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+}
+
+.cards-container .card-one, .cards-container .card-two, .cards-container .card-three {
+  border-radius: 5px;
+  height: 100%;
+  background-color: rgba(168, 168, 168, 0.877);
+  text-align: center;
+  width: 350px;
+}
+
+.fa {
+  color: red;
+  margin-top: 15px;
+}
+
+.awesome {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
